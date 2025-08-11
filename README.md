@@ -1,5 +1,7 @@
 # 🎮 Tic-Tac-Toe Console Game in Java
 
+![Game Banner](https://upload.wikimedia.org/wikipedia/commons/3/32/Tic_tac_toe.svg)
+
 ## 📌 Project Purpose
 The **Tic-Tac-Toe Console Game** is a simple Java application that allows two players to play the classic Tic-Tac-Toe game on a 3x3 grid using the console.  
 It’s designed for beginners to practice **Java loops, conditionals, arrays, and basic game logic**.

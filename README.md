@@ -1,26 +1,58 @@
-# 🎮 Tic-Tac-Toe Console Game in Java
+# 🎮 Python Tic-Tac-Toe (2 Player Console Game)
 
-![Game Banner](https://upload.wikimedia.org/wikipedia/commons/3/32/Tic_tac_toe.svg)
-
-## 📌 Project Purpose
-The **Tic-Tac-Toe Console Game** is a simple Java application that allows two players to play the classic Tic-Tac-Toe game on a 3x3 grid using the console.  
-It’s designed for beginners to practice **Java loops, conditionals, arrays, and basic game logic**.
+A simple **Tic-Tac-Toe** game built in Python for two players to play in the console.  
+This project is a great starting point to understand **loops, conditionals, lists, and game logic** in Python.
 
 ---
 
-## ⚙️ Features
-- 3x3 game board for Tic-Tac-Toe.
-- Two-player mode (`X` and `O`).
-- Turn-based gameplay.
-- Input validation for moves.
-- Win detection for rows, columns, and diagonals.
-- Displays the board after each move.
+## 📌 Features
+- 3×3 grid-based game board
+- Player vs Player mode
+- Input validation (prevents invalid moves)
+- Win detection for:
+  - Rows
+  - Columns
+  - Diagonals
+- Draw detection
+- Clean and easy-to-read board display
 
 ---
 
-## 🛠️ How to Run
-1. **Clone this repository** or copy the source code into a file named `Main.java`.
-2. Open a terminal/command prompt.
-3. Compile the Java file:
+## 🛠 Requirements
+- Python 3.x installed on your system
+
+---
+
+## ▶️ How to Run
+1. Save the code in a file named `tic_tac_toe.py`.
+2. Open a terminal or command prompt in the file's directory.
+3. Run the game:
    ```bash
-   javac Main.java
+   python tic_tac_toe.py
+🎯 How to Play
+
+The game board has rows and columns numbered 0–2.
+
+Player X goes first, followed by Player O.
+
+On your turn:
+
+Enter the row and column numbers (e.g., 1 2 means row 1, column 2).
+
+The first player to align three marks in a row, column, or diagonal wins.
+
+If the board is full and no one has won → It's a draw.
+
+🧠 Game Logic
+
+Board Representation: 3×3 list of lists, initialized with spaces ' '.
+
+Move Validation: Ensures moves are within bounds and the chosen cell is empty.
+
+Win Detection: Checks all rows, columns, and both diagonals for matching symbols.
+
+Draw Detection: If all cells are filled without a winner.
+
+Player Switching: Alternates between 'X' and 'O'.
+
+

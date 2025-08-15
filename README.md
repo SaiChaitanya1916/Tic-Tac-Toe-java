@@ -1,4 +1,6 @@
+
 # 🎮 Python Tic-Tac-Toe (2 Player Console Game)
+<img width="100" height="102" alt="ChatGPT Image Aug 15, 2025, 01_27_44 PM" src="https://github.com/user-attachments/assets/de3c4171-e6a7-481f-9747-632afbfcab1f" />
 
 A simple **Tic-Tac-Toe** game built in Python for two players to play in the console.  
 This project is a great starting point to understand **loops, conditionals, lists, and game logic** in Python.
